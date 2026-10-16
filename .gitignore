@@ -1,0 +1,29 @@
+# Sistema operativo y cachés
+.DS_Store
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+Thumbs.db
+
+# Credenciales y variables de entorno sensibles (repositorio público)
+*.env
+apikeys.env
+
+# Pesos y modelos binarios grandes
+*.pt
+*.pth
+*.safetensors
+*.ckpt
+*.h5
+*.npy
+*.parquet
+*.zip
+*.tar.gz
+checkpoints/
+runs/
+
+# Materiales de apoyo no versionados
+/Info/*
+/Books/*
+/clases/*
+/Docs/*
